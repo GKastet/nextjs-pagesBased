@@ -5,3 +5,5 @@ const Blog = () => {
   }
   
   export default Blog
+
+  //http://localhost:3000/blog

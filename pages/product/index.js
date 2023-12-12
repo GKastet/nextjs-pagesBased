@@ -9,3 +9,5 @@ function ProductList() {
 }
 
 export default ProductList;
+
+//http://localhost:3000/product
