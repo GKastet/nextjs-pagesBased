@@ -1,6 +1,6 @@
 const FirstBlog = () => {
     return (
-      <h1>First Blog Page</h1>
+      <h1>First1 Blog Page</h1>
     )
   }
   

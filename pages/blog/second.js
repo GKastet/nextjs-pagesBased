@@ -1,6 +1,6 @@
 const SecondBlog = () => {
     return (
-      <h1>Second Blog Page</h1>
+      <h1>Second2 Blog Page</h1>
     )
   }
   
