@@ -9,3 +9,9 @@ function ProductDetail(){
 }
 
 export default ProductDetail;
+
+//http://localhost:3000/product/5 
+//http://localhost:3000/product/50 
+//http://localhost:3000/product/sweater
+
+//etc.

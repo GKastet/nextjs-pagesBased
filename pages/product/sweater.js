@@ -7,3 +7,5 @@ const Sweater = () => {
 }
 
 export default Sweater
+
+//http://localhost:3000/product/sweater
