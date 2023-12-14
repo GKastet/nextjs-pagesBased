@@ -1,9 +1,14 @@
-const Blog = () => {
-    return (
-      <h1>Blog Page</h1>
-    )
-  }
-  
-  export default Blog
+import Link from "next/link";
 
-  //http://localhost:3000/blog
+const Blog = () => {
+  return (
+    <div>
+      <Link href="/">Home</Link>
+      <h1>Blog Page</h1>
+    </div>
+  );
+};
+
+export default Blog;
+
+//http://localhost:3000/blog
