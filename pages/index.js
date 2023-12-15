@@ -3,7 +3,7 @@ import { useRouter } from "next/router";
 
 const Home = () => {
 
-  console.log("home");
+  // console.log("home");
 
   return (
     <div>
