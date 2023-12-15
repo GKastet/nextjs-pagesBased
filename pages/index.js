@@ -1,9 +1,15 @@
 import Link from "next/link";
 import { useRouter } from "next/router";
 
-const Home = () => {
+const Home = () => {  
+  const router = useRouter()
 
-  console.log("home");
+  const handleClick = () => {
+    console.log("Placing your order");
+    router.push('./product')// store route history
+    // router.replace('./product')// better used for modals, 
+
+  }
 
   return (
     <div>
