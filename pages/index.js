@@ -2,23 +2,12 @@ import Link from "next/link";
 import { useRouter } from "next/router";
 
 const Home = () => {  
-  const router = useRouter()
-
-  const handleClick = () => {
-    console.log("Placing your order");
-    router.push('./product')// store route history
-    // router.replace('./product')// better used for modals, 
-
-  }
+  const router = useRouter() 
 
   return (
     <div>
-      <h1>Home Page</h1>
-      <Link href="/blog">Blog</Link>
-      <Link href="/product">Products</Link>
-      <button type="button" onClick={handleClick}>
-        Place Order
-      </button>
+      <h1>Next JS pre-rendering</h1>
+      <Link href='/users'>UsersList</Link>
     </div>
   );
 };
