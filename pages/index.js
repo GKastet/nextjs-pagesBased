@@ -5,7 +5,7 @@ const Home = () => {
   const router = useRouter();
 
   const handleClick = () => {
-    console.log("Placing your order");
+    // console.log("Placing your order");
     router.push("/product");// creates a new route in history, able fetch data
     // router.replace("/product");//will replace the browser history, better for modal
   };
