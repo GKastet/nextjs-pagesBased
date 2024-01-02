@@ -8,6 +8,7 @@ const Home = () => {
     <div>
       <h1>Next JS pre-rendering</h1>
       <Link href='/users'>UsersList</Link>
+      <Link href='/posts'>Posts</Link>
     </div>
   );
 };
