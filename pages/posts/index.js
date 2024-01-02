@@ -27,8 +27,11 @@ export async function getStaticProps() {
   const data = await responce.json();
 
   return {
+    // props: {
+    //   posts: data.slice(0, 3), //returns 100 posts, i want only first 3
+    // },
     props: {
-      posts: data.slice(0, 3), //returns 100 posts, i want only first 3
-    },
+        posts: data, //returns 100 posts
+      },
   };
 }
