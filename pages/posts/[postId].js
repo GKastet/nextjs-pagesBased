@@ -11,8 +11,25 @@ function Post({post}) {
 
 export default Post;
 
+export async function getStaticPaths( ) {
+    return {
+        paths: [
+            {
+                params: {postId: '1'}
+            },
+            {
+                params: {postId: '2'}
+            },
+            {
+                params: {postId: '3'}
+            },
+        ],
+        fallback: false
+    }
+}
+
 export async function getStaticProps(context) {
-  //parameter free named
+  //parameter context is free named
   console.log("context: ", context);
   const { params } = context;
   const responce = await fetch(
